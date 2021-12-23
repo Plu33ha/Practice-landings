@@ -1,0 +1,518 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/Avenir/avenirnextcyr-bold.ttf);
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    vertical-align: top;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.btn {
+    max-width: 228px;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 125%;
+    background-color: #01996d;
+    padding: 20px 50px;
+    color: #fff;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1413px;
+}
+
+.main__title {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 157%;
+    color: #01996d;
+    max-width: 584px;
+}
+
+.main__subtitle {
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+    color: #424242;
+}
+
+.main__text {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+
+.header {
+    font-family: Lato;
+}
+
+.header__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 0px;
+}
+
+.header__logo--wrap {
+}
+
+.header__logo {
+}
+
+.header__nav {
+}
+
+.nav {
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    margin-right: 72px;
+}
+
+.nav__item:last-child {
+    margin-right: 0px;
+}
+
+.nav__item a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #292929;
+}
+
+.header__buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header__btn--singIn {
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 35px;
+    background-color: #fff;
+    color: #000;
+    padding: 0px;
+}
+
+.header__btn--Trial {
+    font-size: 20px;
+    line-height: 125%;
+    color: #fff;
+    padding: 13px 50px;
+    background-color: #01996d;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+.main {
+}
+
+.main__headline {
+    background-image: url(img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+    min-height: calc(100vh - 85px);
+}
+
+.main__headline h1 {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 74px;
+    color: #01996d;
+    margin-bottom: 30px;
+}
+
+.main__headline--body {
+    padding-top: 175px;
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 440px;
+}
+
+.headline {
+}
+
+.main__headline--text {
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 31px;
+    color: #484848;
+    margin-bottom: 18px;
+}
+
+.main__headline--btn {
+}
+
+.main__work {
+    padding-top: 169px;
+}
+
+.main__work--body {
+}
+
+.work {
+}
+
+.main__how {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 327px;
+}
+
+.main__subtitles {
+}
+
+.main__how--text {
+    max-width: 671px;
+}
+
+.main__cards {
+}
+
+.cards {
+    display: flex;
+    counter-reset: numbers;
+    padding-bottom: 51px;
+}
+.card_1,
+.card_3 {
+    margin-top: 53px;
+}
+
+.card_2 {
+    margin-top: 205px;
+}
+
+.main__card {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 95px;
+    max-width: 392px;
+}
+.main__card:last-child {
+    margin-right: 0px;
+}
+
+.cards__title {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    text-align: center;
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.cards__title:first-child::before {
+    font-family: Georgia;
+    font-size: 150px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+    position: absolute;
+    bottom: -49px;
+    left: 0;
+    counter-increment: numbers;
+    content: "0" counter(numbers);
+}
+
+.cards__title:nth-child(2)::before {
+    font-family: Georgia;
+    font-size: 150px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+    position: absolute;
+    bottom: -49px;
+    left: 0;
+    counter-increment: numbers;
+    content: "0" counter(numbers);
+}
+
+.cards__title:last-child::before {
+    font-family: Georgia;
+    font-size: 150px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(1, 153, 109, 0.2);
+    position: absolute;
+    bottom: -49px;
+    left: 0;
+    counter-increment: numbers;
+    content: "0" counter(numbers);
+}
+
+.cards__title:last-child {
+    margin-bottom: 46px;
+}
+
+.cards__text {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424242;
+}
+
+.cards__text:first-child {
+    margin-bottom: 60px;
+}
+
+.cards__text:nth-child(2) {
+    margin-bottom: 37px;
+}
+
+.cards__text:last-child {
+    margin-bottom: 48px;
+}
+
+
+.cards__img {
+    max-width: 390px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.main__story {
+    background-color: #245852;
+}
+
+.main__story--body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 229px 0px 177px 0px;
+}
+
+.story {
+}
+
+.story__info {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 31px;
+}
+
+.story__title {
+    margin-bottom: 33px;
+    color: #fff;
+}
+
+.story__text {
+    margin-bottom: 57px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+}
+
+.story__btn {
+    max-width: 247px;
+}
+
+.story__img--wrap {
+    position: relative;
+}
+
+.story__img--wrap::after {
+    content: "";
+    width: 81px;
+    height: 81px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/Group.png);
+    position: absolute;
+    top: calc(50% - 41px);
+    left: calc(50% - 41px);
+    z-index: 2;
+    cursor: pointer;
+}
+
+.story__img {
+    border-radius: 16.3326px;
+}
+
+.main__product {
+}
+
+.main__product--body {
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 0px 168px 0px;
+}
+
+.product {
+}
+
+.product__img--wrap {
+    position: relative;
+    background: rgba(1, 153, 109, 0.2);
+    border-radius: 18px;
+    width: 639px;
+    text-align: center;
+}
+
+.product__img {
+}
+
+.product__subblock {
+    position: absolute;
+    bottom: -75px;
+    left: -61px;
+    background: #ffffff;
+    border-radius: 3.72971px;
+    filter: drop-shadow(0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px 55px 30px 61px;
+    font-family: Lato;
+}
+
+.product__headline {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 157%;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 14px;
+}
+
+.product__avatar {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background-color: rgba(1, 153, 109, 0.2);
+    background-image: url(img/img-5.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 11px;
+}
+
+.product__name {
+    font-size: 12px;
+    line-height: 157%;
+    margin-bottom: 21px;
+}
+
+.product__minititle {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 157%;
+    margin-bottom: 16px;
+}
+
+.product__list {
+    font-size: 11px;
+    line-height: 157%;
+    list-style: disc;
+    align-self: flex-start;
+    margin-left: 15px;
+}
+
+.product__item {
+    margin-bottom: 16px;
+    text-indent: -5px;
+    text-align: left;
+}
+
+.product__info {
+    max-width: 584px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product__subtitle {
+    margin-bottom: 10px;
+}
+
+.product__title {
+    margin-bottom: 20px;
+}
+
+.product__text {
+    margin-bottom: 40px;
+}
+
+.product__btn {
+}
+
+.footer {
+    background-color: #245852;
+}
+
+.footer__body {
+    padding-top: 95px;
+    padding-bottom: 114px;
+}
+
+.footer__title {
+    color: #fff;
+    font-family: Avenir;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.footer__list {
+}
+
+.footer__title,
+.footer__item {
+    margin-bottom: 60px;
+}
+
+.footer__item:last-child {
+    margin-bottom: 0;
+}
+
+.footer__item {
+    font-family: Loto;
+}
+
+.footer__item a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
