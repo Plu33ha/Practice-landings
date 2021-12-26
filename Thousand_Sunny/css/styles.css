@@ -62,7 +62,7 @@ button {
 	flex-basis: 50%;
 	width: 41px;
 	height: 41px;
-	background-image: url(img/logo.svg);
+	background-image: url(../img/logo.svg);
 	background-position: left center;
 	background-repeat: no-repeat;
 }
@@ -198,7 +198,7 @@ button {
 .header__background {
 	width: 687px;
 	height: 654px;
-	background-image: url(img/thousand-01.svg);
+	background-image: url(../img/thousand-01.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -259,7 +259,7 @@ button {
 .section01__background {
 	width: 659px;
 	height: 534px;
-	background-image: url(img/thousand-02.svg);
+	background-image: url(../img/thousand-02.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -308,16 +308,16 @@ button {
 	position: relative;
 }
 .section02__card:first-child {
-	background-image: url(img/deco-img-1.jpg);
+	background-image: url(../img/deco-img-1.jpg);
 }
 .section02__card:nth-child(2) {
-	background-image: url(img/deco-img-2.jpg);
+	background-image: url(../img/deco-img-2.jpg);
 }
 .section02__card:nth-child(3) {
-	background-image: url(img/deco-img-3.jpg);
+	background-image: url(../img/deco-img-3.jpg);
 }
 .section02__card:last-child {
-	background-image: url(img/deco-img-4.jpg);
+	background-image: url(../img/deco-img-4.jpg);
 	margin: 0;
 }
 
@@ -382,11 +382,25 @@ button {
 	width: 599px;
 	height: 542px;
 	margin-left: 49px;
-	background-image: url(img/thousand-03.svg);
+	background-image: url(../img/thousand-03.svg);
 	background-repeat: no-repeat;
 }
 
 .section04 {
+}
+
+.section04__stars {
+	display: block;
+	width: 189px;
+	height: auto;
+}
+
+.section04__author {
+
+}
+
+.section04__text {
+
 }
 
 .section04__content {
