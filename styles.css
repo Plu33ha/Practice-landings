@@ -16,11 +16,15 @@ a {
 }
 .header {
 }
+.main__title {
+	display: inline;
+}
 .header__title a {
 	transition-duration: 0.1s;
 	transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
 	color: #443d60;
 	border-bottom: 10px solid transparent;
+	text-transform: uppercase;
 }
 .header__title,
 .main__title {
@@ -33,18 +37,9 @@ a {
 .header__title a:hover {
 	border-bottom: 2px solid #443d60;
 }
-.main a {
-	display: inline-block;
-	width: 20px;
-	height: 30px;
-	background-image: url(img/figma.svg);
-	background-position: center;
-	background-repeat: no-repeat;
-	margin-right: 10px;
-}
 .main img {
 	max-width: 80%;
-	margin: 0 auto 2.5% auto;
+	margin: 2.5% auto 2.5% auto;
 	display: block;
 	border-radius: 15px;
 	padding: 5px;
@@ -54,9 +49,26 @@ a {
 }
 .main__work {
 	border-bottom: 1px solid #dcdcdc;
+	margin-bottom: 10px;
 }
 .main__title {
 	text-align: center;
 }
 .main__link {
+	display: inline-block;
+	width: 20px;
+	height: 25px;
+	background-image: url(img/figma.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+.main__ghlink {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background-image: url(img/web.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0px 20px;
 }
