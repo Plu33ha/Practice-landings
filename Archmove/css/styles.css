@@ -1,55 +1,508 @@
 * {
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
+
 img {
-	vertical-align: top;
+    vertical-align: top;
+    max-width: 100%;
 }
+
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
+
 ul,
 ol {
-	list-style: none;
+    list-style: none;
 }
-@font-face {
-	font-family: "New York";
-	src: url(../fonts/newyork/NewYork.otf);
-}
-@font-face {
-	font-family: SF;
-	src: url(../fonts/SF/SFUIDisplay-Regular.eot) format("embedded-opentype"),
-	url(../fonts/SF/SFUIDisplay-Regular.ttf) format("truetype"),
-	url(../fonts/SF/SFUIDisplay-Regular.woff) format("woff"),
-	url(../fonts/SF/SFUIDisplay-Regular.woff2) format("woff2");
-	font-weight: 400;
-	font-style: normal;
-}
-@font-face {
-	font-family: SF;
-	src: url(../fonts/SF/SFUIDisplay-Semibold.eot) format("embedded-opentype"),
-	url(../fonts/SF/SFUIDisplay-Semibold.ttf) format("truetype"),
-	url(../fonts/SF/SFUIDisplay-Semibold.woff) format("woff"),
-	url(../fonts/SF/SFUIDisplay-Semibold.woff2) format("woff2");
-	font-weight: 600;
 
-}
 @font-face {
-	font-family: SF;
-	src: url(../fonts/SF/SFUIText-Bold.eot) format("embedded-opentype"),
-	url(../fonts/SF/SFUIText-Bold.ttf) format("truetype"),
-	url(../fonts/SF/SFUIText-Bold.woff) format("woff"),
-	url(../fonts/SF/SFUIText-Bold.woff2) format("woff2");
-	font-weight: 700;
-
+    font-family: "New York";
+    src: url(../fonts/newyork/NewYorkExtraLargeBOld.otf);
 }
+
 @font-face {
-	font-family: SF;
-	src: url(../fonts/SF/SFUIText-Light.eot) format("embedded-opentype"),
-	url(../fonts/SF/SFUIText-Light.ttf) format("truetype"),
-	url(../fonts/SF/SFUIText-Light.woff) format("woff"),
-	url(../fonts/SF/SFUIText-Light.woff2) format("woff2");
-	font-weight: 300;
-
+    font-family: SF;
+    src: url(../fonts/SF/SFUIDisplay-Regular.eot) format("embedded-opentype"), url(../fonts/SF/SFUIDisplay-Regular.ttf) format("truetype"), url(../fonts/SF/SFUIDisplay-Regular.woff) format("woff"), url(../fonts/SF/SFUIDisplay-Regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: SF;
+    src: url(../fonts/SF/SFUIDisplay-Semibold.eot) format("embedded-opentype"), url(../fonts/SF/SFUIDisplay-Semibold.ttf) format("truetype"), url(../fonts/SF/SFUIDisplay-Semibold.woff) format("woff"), url(../fonts/SF/SFUIDisplay-Semibold.woff2) format("woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: SF;
+    src: url(../fonts/SF/SFUIText-Bold.eot) format("embedded-opentype"), url(../fonts/SF/SFUIText-Bold.ttf) format("truetype"), url(../fonts/SF/SFUIText-Bold.woff) format("woff"), url(../fonts/SF/SFUIText-Bold.woff2) format("woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: SF;
+    src: url(../fonts/SF/SFUIText-Light.eot) format("embedded-opentype"), url(../fonts/SF/SFUIText-Light.ttf) format("truetype"), url(../fonts/SF/SFUIText-Light.woff) format("woff"), url(../fonts/SF/SFUIText-Light.woff2) format("woff2");
+    font-weight: 300;
+}
+
+.wrapper {}
+
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+}
+
+.header {
+    max-width: 1340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px;
+    font-family: SF;
+}
+
+.header__logo--wrap {}
+
+.logo--wrap {}
+
+.header__logo {}
+
+.logo {}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.nav {}
+
+.header__menu {}
+
+.nav__menu {
+    display: flex;
+    gap: 0px;
+}
+
+.header__item {}
+
+.menu__item {}
+
+.menu__item a {
+    font-size: 14px;
+    line-height: 286%;
+    letter-spacing: 0.01em;
+    color: #585858;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    padding: 10px 12px;
+}
+
+.header__btns {
+    display: flex;
+    align-items: center;
+}
+
+.header__login,
+.header__reg {
+    font-size: 14px;
+    line-height: 286%;
+    letter-spacing: 0.01em;
+    color: #585858;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    padding: 4px 24px;
+}
+
+.header__reg {
+    font-weight: 600;
+    background-color: #FD665E;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.main section {
+    padding: 64px 0px;
+}
+
+.main__head {}
+
+.head {
+    padding-bottom: 48px;
+}
+
+.head__body {}
+
+.main__title {
+    font-family: "New York";
+    font-weight: bold;
+    font-size: 112px;
+    line-height: 100%;
+    letter-spacing: -0.04em;
+    color: #000;
+    max-width: 80%;
+    margin-bottom: 47px;
+}
+
+.main__title span {
+    color: #FD665E;
+}
+
+.head__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head__content {
+    max-width: 290px;
+    font-family: SF;
+}
+
+.main__text {
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #000;
+    margin-bottom: 56px;
+}
+
+.head__text {}
+
+.main__btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.01em;
+    padding: 15px 32px;
+    color: #fff;
+    background-color: #FD665E;
+    border-radius: 4px;
+}
+
+.choice__body {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.main__subtitle {
+    font-family: New York;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 124%;
+    letter-spacing: -0.04em;
+    color: #000;
+    align-self: center;
+}
+
+.choice .main__subtitle {
+    max-width: 500px;
+    text-align: center;
+}
+
+.slider {
+    min-width: 87.9vw;
+    position: relative;
+}
+
+.choice__slides {
+    min-width: 0;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: -94px;
+    z-index: 10;
+    font-size: 30px;
+    border: 0;
+    cursor: pointer;
+    padding: 14px;
+    background: 0;
+}
+
+.slick-arrow:hover {
+    color: #FD665E;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+}
+
+.slick-arrow.slick-prev {
+    right: 220px;
+}
+
+.slick-arrow.slick-next {
+    right: 158px;
+}
+
+.draggable {
+    padding: 0;
+}
+
+.main__needs {}
+
+.needs {}
+
+.needs .main__subtitle {
+    margin-bottom: 40px;
+}
+
+.needs__body {}
+
+.needs__bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 155px;
+    font-family: SF;
+}
+
+.needs__img {}
+
+.needs__content {
+    max-width: 391px;
+}
+
+.needs__tags {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-bottom: 72px;
+}
+
+.needs__tag {
+    position: relative;
+}
+
+.needs__tag .icon-shield {
+    position: absolute;
+    top: 0;
+    left: -76px;
+    font-size: 55px;
+}
+
+.needs__tag .icon-checkmark {
+    color: #FD665E;
+    position: absolute;
+    top: 15px;
+    left: -58px;
+    font-size: 21px;
+}
+
+.needs__tag:nth-child(2):before {
+    content: '\00a0 \00a0 \00a0 $';
+    color: #FD665E;
+    font-size: 24px;
+    line-height: 70px;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: -79px;
+    display: block;
+    width: 39px;
+    height: 48px;
+    border: 4px solid #000;
+}
+
+.needs__tag:nth-child(3) {
+    position: relative;
+}
+
+.needs__tag:nth-child(3):after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -79px;
+    display: block;
+    width: 40px;
+    height: 53px;
+    background-image: url(../img/Group3.png);
+}
+
+.needs__tag p {
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #000;
+}
+
+.needs__heading {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.needs__text {}
+
+.needs__btn {
+    text-transform: uppercase;
+}
+
+.main__reviews {}
+
+.reviews {
+    background-color: #f9f9f9;
+}
+
+.reviews .reviews__body .main__subtitle {
+    max-width: 375px;
+    margin-bottom: 40px;
+    align-self: flex-start;
+    position: relative;
+}
+
+.reviews__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.reviews__slider {
+    width: 765px;
+    align-self: flex-end;
+}
+
+.reviews__slide {
+    font-family: SF;
+    line-height: 51px;
+    letter-spacing: 0.01em;
+    color: #000;
+}
+
+.reviews__body .slick-arrow {
+    position: absolute;
+    top: 85%;
+    z-index: 10;
+    font-size: 30px;
+    border: 0;
+    cursor: pointer;
+    padding: 14px;
+    background: 0;
+}
+
+.reviews__body .slick-arrow:hover {
+    color: #FD665E;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+}
+
+.reviews__body .slick-arrow.slick-prev {
+    right: 64px;
+}
+
+.reviews__body .slick-arrow.slick-next {
+    right: 0px;
+}
+
+.reviews__text {
+    font-weight: 300;
+    font-size: 32px;
+    margin-bottom: 51px;
+}
+
+.reviews__body .icon-bracks {
+    position: absolute;
+    bottom: -130px;
+    right: 70px;
+}
+
+.reviews__author {
+    font-size: 16px;
+}
+
+.reviews__author span {
+    font-weight: bold;
+}
+
+.main__real {
+    background: linear-gradient(180deg, #F9F9F9 22.12%, rgba(249, 249, 249, 0) 100%);
+    ;
+}
+
+.real {
+    min-height: 812px;
+}
+
+.real__body {
+    display: flex;
+    gap: 123px;
+}
+
+.real__body .main__subtitle {
+    max-width: 521px;
+    align-self: flex-end;
+    margin-bottom: 64px;
+}
+
+.real__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.real__btn {
+    align-self: flex-start;
+}
+
+.real__decor {
+    width: 497px;
+    height: 684px;
+    background-image: url(../img/deco-img-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__partners {}
+
+.partners {}
+
+.main__partners .main__subtitle {
+    margin-bottom: 16px;
+}
+
+.partners__body {}
+
+.partners__logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners__logo {}
+
+.footer {}
+
+.footer__body {
+    padding: 84px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__nav {}
+
+.footer__menu {}
+
+.footer__item a {
+    font-family: SF;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    color: #585858;
+    letter-spacing: 0.01em;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.footer__logo--wrap {}
+
+.footer__logo {}

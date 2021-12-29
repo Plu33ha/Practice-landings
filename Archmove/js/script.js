@@ -1,7 +1,7 @@
 $(document).ready(function(){
 	$('.choice__slider').slick({
-		arrows:false,
-		dots:true,
+		arrows:true,
+		dots:false,
 		adaptiveHeight:true,
 		slidesToShow:3,
 		slidesToScroll:3,
@@ -21,7 +21,7 @@ $(document).ready(function(){
 		touchThreshold:5,
 		touchMove:true,
 		waitForAnimate:false,
-		centerMode:false,
+		centerMode:true,
 	});
 });
 $('.reviews__slider').slick();
