@@ -1,0 +1,19 @@
+.block {
+	position: relative;
+}
+
+.block:before {
+	content: '';
+	display: block;
+	height: 660px;
+	width: 478px;
+	opacity: 0.4;
+/* Header text */
+
+border: 4px solid #343D33;
+box-sizing: border-box;
+border-radius: 500px 500px 0px 0px;
+position: absolute;
+top: -9px;
+left: -10px;
+}
