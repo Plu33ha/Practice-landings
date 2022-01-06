@@ -51,6 +51,9 @@ a {
 	border-bottom: 1px solid #dcdcdc;
 	margin-bottom: 10px;
 }
+.main__work:last-child {
+	border-bottom: none;
+}
 .main__title {
 	text-align: center;
 }
