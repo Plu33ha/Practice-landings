@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/font-icon/icomoon.eot?zuelg');
+  src:  url('../fonts/font-icon/icomoon.eot?zuelg#iefix') format('embedded-opentype'),
+    url('../fonts/font-icon/icomoon.ttf?zuelg') format('truetype'),
+    url('../fonts/font-icon/icomoon.woff?zuelg') format('woff'),
+    url('../fonts/font-icon/icomoon.svg?zuelg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-check-icon--2:before {
+  content: "\e900";
+  color: #0da800;
+}
+.icon-bigcommerce-platform:before {
+  content: "\e901";
+}
+.icon-check-icon:before {
+  content: "\e902";
+  color: #0da800;
+}
+.icon-greatheights-partner:before {
+  content: "\e903";
+}
+.icon-logo:before {
+  content: "\e904";
+  color: #508;
+}
+.icon-logotype:before {
+  content: "\e905";
+}
+.icon-magento-platform:before {
+  content: "\e906";
+}
+.icon-merch-icon-1:before {
+  content: "\e907";
+}
+.icon-merch-icon-2:before {
+  content: "\e908";
+}
+.icon-merch-icon-3:before {
+  content: "\e909";
+}
+.icon-nowvac-partner:before {
+  content: "\e90a";
+}
+.icon-shopify-platform:before {
+  content: "\e90b";
+}
+.icon-smilo-partner:before {
+  content: "\e90c";
+}
+.icon-spinn-partner:before {
+  content: "\e90d";
+}
+.icon-swell-platform:before {
+  content: "\e90e";
+  color: #7800bf;
+}
+.icon-third-partner:before {
+  content: "\e90f";
+}
