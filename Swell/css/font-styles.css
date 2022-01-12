@@ -42,6 +42,7 @@
 .icon-logo:before {
   content: "\e904";
   color: #508;
+  font-size: 28px;
 }
 .icon-logotype:before {
   content: "\e905";

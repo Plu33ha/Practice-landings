@@ -11,3 +11,274 @@ a:visited {
 	text-decoration: none;
 	color: #000;
 }
+ul,
+ol {
+	list-style: none;
+}
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+}
+.wrapper {
+	min-height: 100vh;
+	background: linear-gradient(180deg, #FEFCF4 0%, #FFFDF4 33.33%, #F6F2F5 38.54%, #F7F3F5 100%), #F7F3F5;
+}
+.container {
+	max-width: 1290px;
+	margin: 0 auto;
+}
+.header {
+
+}
+
+.header__body {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 64px;
+}
+.header__logo--wrap {
+}
+.icon-logo {
+}
+.header__nav {
+}
+.header__menu {
+	display: flex;
+	gap: 10px;
+}
+.header__item a,
+.header__btn {
+	font-size: 1em;
+	line-height: 155%;
+	color: #180330; 
+	padding: 8px 19px;
+}
+.header__item a:hover {
+	text-decoration: underline;
+}
+.header__buttons {
+}
+.header__btn {
+}
+.start-free {
+	padding: 8px 16px;
+}
+.login {
+	border: 1px solid #550088;
+	border-radius: 4px;
+}
+.main {
+}
+.main__body {
+}
+.main__section {
+}
+.top {
+	padding-top: 109px;
+	min-height: 1214px;
+	background-image: url(../img/header-img.png);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+}
+.top__content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.main__heading {
+	font-size: 6em;
+	line-height: 115%;
+	font-weight: normal;
+	color: #180330;
+	margin-bottom: 34px;
+}
+.main__subheading {
+	margin-bottom: 39px;
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 155%;
+}
+.main__miniform {
+	display: flex;
+	align-items: center;
+}
+
+.main__miniform input {
+	font-family: Roboto, sans-serif;
+	font-size: 0.875em;
+	line-height: 177%;
+	color: rgba(0, 0, 0, 0.48);
+	padding-left: 20px;
+	min-width: 256px;
+	border: 1px solid #180330;
+	border-radius: 4px 0px 0px 4px;
+}
+.main__miniform input,
+.main__miniform button {
+	min-height: 42px;
+	display: block;
+}
+.main__miniform button {
+	font-size: 1em;
+	line-height: 155%;
+	color: #fff;
+	padding: 0px 30px;
+	background: linear-gradient(180deg, #550088 30.21%, #7800BF 66.15%, #892FFC 100%), #550088;
+	border-radius: 0px 4px 4px 0px;
+	border: 0;
+}
+.cards {
+	padding-top: 51px;
+}
+.cards__blocks {
+	display: flex;
+	flex-direction: column;
+	gap: 80px;
+	align-items: center;
+}
+.cards__block {
+	min-height: 402px;
+}
+.cards__block:nth-child(2n+1) {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.cards__block:first-child {
+	background-image: url(../img/card-img-1.png);
+	background-repeat: no-repeat;
+	background-position: 49px 63px;
+}
+.cards__block:last-child {
+	background-image: url(../img/card-img-2.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.cards__content {
+	max-width: 50%;
+}
+.cards__title {
+	font-size: 2.25em;
+	line-height: 115%;
+	color: #180330;
+	text-align: center;
+}
+.cards__text,
+.main__link {
+	font-size: 1.25em;
+	line-height: 155%;
+	color: #180330;
+	text-align: center;
+}
+.cards__text {
+	color: #180330;
+}
+.cards__link {
+	display: block;
+	text-align: center;
+}
+.main .main__link {
+	color: #550088;
+}
+.main__link {
+}
+.features {
+}
+.features__content {
+}
+.main__title {
+}
+.features__title {
+}
+.features__list {
+}
+.features__item {
+}
+.features__link {
+}
+.table {
+}
+.main__table {
+}
+.table__caption {
+}
+.icon-swell-platform {
+}
+.icon-shopify-platform {
+}
+.icon-magento-platform {
+}
+.icon-bigcommerce-platform {
+}
+.icon-check-icon {
+}
+.table__note {
+}
+.table__link {
+}
+.merchant {
+}
+.merchant__title {
+}
+.merchant__content {
+}
+.merchant__strip {
+}
+.red {
+}
+.merchant__img--wrap {
+}
+.merchant__img {
+}
+.merchant__info {
+}
+.icon-merch-icon-1 {
+}
+.merchant__text {
+}
+.merchant__subtext {
+}
+.yellow {
+}
+.icon-merch-icon-2 {
+}
+.green {
+}
+.icon-merch-icon-3 {
+}
+.partners {
+}
+.icon-nowvac-partner {
+}
+.icon-smilo-partner {
+}
+.icon-third-partner {
+}
+.icon-spinn-partner {
+}
+.icon-greatheights-partner {
+}
+.footer {
+}
+.footer__body {
+}
+.footer__top {
+}
+.footer__block {
+}
+.footer__list {
+}
+.footer__item {
+}
+.icon-logotype {
+}
+.footer__title {
+}
+.footer__bottom {
+}
+.footer__copyright {
+}
+.footer__privacy {
+}
+.footer__system {
+}
